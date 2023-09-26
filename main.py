@@ -1,9 +1,13 @@
-def factorial(n):
-    if (n==1 or n==0):
-        return 1
-    else:
-         
-        return (n * factorial(n - 1))
-num = 7;
-print("number : ",num)
-print("Factorial : ",factorial(num))
+class player:
+  def play(self):
+      print("The player is playing cricket.")
+class Batsman (player):
+     def play (self):
+         print("The batsman is bating. ")  
+class Bowler(player):
+     def play(self):
+         print("The bowler is bowling.")
+batsman = Batsman () 
+bowler = Bowler () 
+batsman. play () 
+bowler. play()
